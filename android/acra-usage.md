@@ -68,8 +68,8 @@ go install -v github.com/gen2brain/acra-go/acra-go
 터미널에서 명령어를 진행하면 `$GOPATH/bin/acra-go` 에 설치가 됩니다.
 (acra-go 가 사용하고 있는 써드파티 의존성 해결 필요.)
 
-* [go 개발환경 설정](https://github.com/jameschun7/document/blob/main/golang/golang-develop-env.md)
-* [go mod 사용법](https://github.com/jameschun7/document/blob/main/golang/golang-develop-env.md)
+* [go 개발환경 설정](https://github.com/jameschun7/docs/blob/main/golang/golang-develop-env.md)
+* [go mod 사용법](https://github.com/jameschun7/docs/blob/main/golang/golang-develop-env.md)
 
 go mod 사용법을 참고하여 프로젝트내에서 `go mod init` 명령어를 실행하면 vendor 파일 읽고 의존성 걸려 있는 모듈들을 모두 받는듯 하다. (패키지매니저 역할)
 
@@ -86,12 +86,15 @@ acra-go -bind-addr 192.168.12.10:55000 --htpasswd-frontend .htpasswd
 * [예제 참고](#예제)
 
 ### htpasswd 파일 생성
+
 ```
 htpasswd -c .htpasswd id
 ```
 
 ## Usage
+
 명령어 정리
+
 * -bind-addr string : Bind address (default ":55000")
 * -database-dir string : Path to database directory (default ".")
 * -htpasswd-backend string : Path to htpasswd file, if empty backend auth is disabled
@@ -113,4 +116,5 @@ htpasswd -c .htpasswd id
 ![Front View](https://user-images.githubusercontent.com/20632507/115683529-844a9d80-a391-11eb-94b5-0fa76288eccf.gif)
 
 ## 참고
+
 * [gen2brain/acra-go](https://github.com/gen2brain/acra-go)
