@@ -79,14 +79,12 @@ fastlane init
 
 ```ruby
 lane :lint_pod do
-	Action.sh("pod spec lint --verbose ../UniversalSDK.podspec")
+    Action.sh("pod spec lint --verbose ../UniversalSDK.podspec")
 end
 ```
 
 ### framework 빌드 및 배포하기
 
 ### git 명령어 사용하기
-
-
 
 [fastlane docs for iOS Setup](https://docs.fastlane.tools/getting-started/ios/setup/)
