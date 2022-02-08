@@ -42,8 +42,6 @@
 
 ### 5. CI
 
-* fastlane 사용법
-
-* jenkins
-
-* 
+* [fastlane 사용법](https://github.com/jameschun7/docs/blob/main/ci/fastlane-usage.md)
+* [jenkins 설치 및 설정](https://github.com/jameschun7/docs/blob/main/ci/jenkins-setup.md)
+* [jenkins 사용법](https://github.com/jameschun7/docs/blob/main/ci/jenkins-usage.md)
