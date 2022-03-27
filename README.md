@@ -37,8 +37,7 @@
 
 ### 4. Go
 
-* go 개발 환경 설정
-* m1 에서 go 환경 설정
+* [go 개발 환경 설정](https://github.com/coolishbee/docs/blob/main/golang/golang-develop-env.md)
 
 ### 5. CI
 
