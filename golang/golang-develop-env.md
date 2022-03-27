@@ -6,7 +6,7 @@
 
 윈도우든 맥이든 환경변수를 설정해야 합니다.
 
-* GOROOT : /usr/local/go
+* GOROOT : /usr/local/go (설치시 자동 설정됨)
 * GOPATH : workspace 에 해당하므로 임의로 정하면 됩니다.
 * GOBIN : $GOPATH/bin
 
@@ -18,15 +18,16 @@
 
 * go mod init
 
-  vendor.json 파일을 읽고 mod 파일을 생성하여 내부 프로젝트에서 사용되고 있는 의존성 소스에 대해 내려받고 관리해준다.
+  기본적으로 mod 파일을 생성해주고 vendor 폴더가 존재한다면 vendor.json 파일을 읽고 mod 파일을 생성하여 내부 프로젝트에서 사용되고 있는 의존성 소스에 대해 내려받고 관리해준다.  
 
 * go mod vendor
 
-  사용해보지 않음
+  vendor 디렉토리를 생성해줍니다
 
 * go mod tidy
 
-* go mod verify
+  프로젝트 내부 의존성을 토대로 mod 파일 업데이트
+
 
 ## 참고
 
