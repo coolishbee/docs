@@ -20,7 +20,6 @@
 import sys
 from ftplib import FTP
 import os
-import pymysql
 import warnings
 import urllib3
 import json
@@ -124,8 +123,9 @@ update_banner_name(filename, file_list)
 ```
 #!/usr/bin/env python3
 import os
-import pymysql
 import warnings
+import urllib3
+import json
 
 warnings.filterwarnings(action='ignore')
 
